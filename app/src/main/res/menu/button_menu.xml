@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/btnHome"
+        android:title="Inicio"
+        android:icon="@drawable/baseline_360_24"
+        />
+    <item
+        android:id="@+id/btnLista"
+        android:title="Lista"
+        android:icon="@drawable/baseline_accessibilit"
+        />
+    <item
+        android:id="@+id/btndb"
+        android:title="Base de datos"
+        android:icon="@drawable/sharp_3p_24"
+        />
+    <item
+        android:id="@+id/btnSalir"
+        android:icon="@drawable/baseline_exit_to_app_24"
+        android:title="Salir"
+        />
+
+</menu>
