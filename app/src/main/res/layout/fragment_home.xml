@@ -13,7 +13,15 @@
         android:padding="20sp"
         android:gravity="center"
         >
-
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:background="@color/barra">
+        </TextView>
 
         <ImageView
             android:layout_width="205dp"

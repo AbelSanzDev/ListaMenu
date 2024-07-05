@@ -16,7 +16,7 @@
             android:layout_height="wrap_content"
             android:text="Hola"
             android:textSize="25sp"
-            android:textColor="@color/micolor"
+            android:textColor="@color/white"
             android:gravity="center"
             android:background="@color/barra">
         </TextView>

@@ -11,15 +11,130 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:padding="20sp">
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/sfrmDb"
             android:textSize="25sp"
-            android:textColor="@color/micolor"
+            android:textColor="@color/white"
             android:gravity="center"
             android:background="@color/barra">
         </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="23dp"
+            android:id="@+id/lblMatricula"
+            android:text="Matricula">
+        </TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ejemplo... 2021XXXX"
+            android:id="@+id/txtMatricula"
+            android:inputType="number">
+        </EditText>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblNombre"
+            android:text="Nombre">
+        </TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtNombre"
+            android:hint="Paterno, Materno, Nombres">
+        </EditText>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblDomicilio"
+            android:text="Domicilio">
+        </TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtDomicilio"
+            android:hint="Calle #, Colonia">
+        </EditText>
+
+        <ImageView
+            android:id="@+id/imgAlumno"
+            android:layout_width="277dp"
+            android:layout_height="233dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/alumno">
+        </ImageView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtEspecialidad"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:hint="Grado, Licenciatura o Ing">
+        </EditText>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtFoto"
+            android:layout_gravity="center"
+            android:text="url foto">
+        </TextView>
+
+
+                <Button
+                    android:id="@+id/btnGuardar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_span="2"
+                    android:backgroundTint="@color/black"
+                    android:textColor="@color/white"
+                    android:text="Guardar"
+                    android:textStyle="bold"
+                    android:layout_marginRight="5dp">
+                </Button>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+            <TableRow>
+                <Button
+                    android:id="@+id/btnBuscar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_span="2"
+                    android:backgroundTint="@color/black"
+                    android:textColor="@color/white"
+                    android:text="Buscar"
+                    android:textStyle="bold"
+                    android:layout_marginRight="5dp">
+                </Button>
+
+                <Button
+                    android:id="@+id/btnBorrar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_span="2"
+                    android:backgroundTint="#DCC8C8"
+                    android:enabled="false"
+
+                    android:text="Borrar"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold">
+                </Button>
+            </TableRow>
+        </TableLayout>
     </LinearLayout>
+
 
 </FrameLayout>
